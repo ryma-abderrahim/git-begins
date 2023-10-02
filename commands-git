@@ -1,0 +1,37 @@
+#######Pour cloner un repositiry :
+git clone url_du_dépot 
+# On remplace url_du_dépot par l'URL du dépot distant qu'on 
+# -souhaite lier dans notre cas :
+https://github.com/ryma-abderrahim/git-begins.git
+
+#######Pour les 3 commandes de push :
+git push origin  
+# permet de pousser les modifications d'une branche spécifisue vers
+# -la branche correspondante sur le référentiel distant (origin)
+
+git push --all
+# permet de pousser toutes les branches locales qui n'existent pas
+# -encore sur le référentiel distant (origin)
+
+git push --tags
+# permet de pousser tous les tags locaux qui n'existent pas dèja
+# -sur le référentiel distant (origin)
+
+
+#########Pour sauvgarder 
+git commit -m "message" 
+# permet de sauvgarder les modifications du fichier dans le dépot git
+
+
+############Ajouter des fichier dans le repository
+git add  nom_fichier 
+
+
+##########Lier le dépot local au dépot distant 
+git remote add origin url_du_dépot
+
+
+#############Inisialiser un nouveau dépot 
+git init 
+# cela céera un répertoire .git qui continedra les informations de suivi Git pour notre projet 
+
